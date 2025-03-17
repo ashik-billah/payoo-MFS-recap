@@ -20,7 +20,7 @@ document.getElementById('btn-add-money').addEventListener('click',function(event
        
        const balanceNumber = parseFloat(balance);
        const newBalance = addMoneyNumber + balanceNumber;
-       console.log(newBalance);
+      
        document.getElementById('account-balance').innerText = newBalance;
 
 
