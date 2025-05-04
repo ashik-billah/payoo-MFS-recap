@@ -22,6 +22,7 @@ document.getElementById('btn-add-money').addEventListener('click',function(event
        const newBalance = addMoneyNumber + balanceNumber;
       
        document.getElementById('account-balance').innerText = newBalance;
+       console.log(addMoney,pinNumber);
 
 
 
